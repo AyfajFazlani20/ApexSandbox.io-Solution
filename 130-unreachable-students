@@ -1,0 +1,6 @@
+public List<apxio__Student__c> selectUnreachableStudents() {
+
+    List<apxio__Student__c> l1=[select students from apxio__Student__c where Email=NULL && Phone=NULL order by Name asc ]
+    
+    return l1 ;// code here
+}
