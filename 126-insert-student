@@ -1,0 +1,15 @@
+public Id insertStudent(String name, String email) {
+
+apxio__Student__c std1 =new apxio__Student__c() ;
+std1.Name =name ;
+std1.apxio__Email__c=email ;
+insert std1 ;
+return std1.Id ;
+
+// public static Id insertStudent(String name, String email) {
+//     apxio__Student__c student = new apxio__Student__c();
+//     student.apxio__Email__c = email;
+//     student.Name = name;
+//     insert student;
+    
+}
