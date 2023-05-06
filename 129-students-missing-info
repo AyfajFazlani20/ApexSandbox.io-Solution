@@ -1,0 +1,6 @@
+public List<apxio__Student__c> selectStudentsWithoutContactInfo() {
+    List<apxio__Student__c> l1=[select Id ,Name from apxio__Student__c where Email=NULL and Phone=NUll order by Name asc]
+
+  return l1 ;
+
+}
