@@ -1,0 +1,11 @@
+public List<Integer> evenNumbers(Integer n) {
+    List<Integer> l1=new List<Integer>() ;
+    int i=1 ,j=2  ;
+    while(i<=n)
+    {
+        l1.add(j) ;
+        j=j+2 ;
+        i++ ;
+    }
+    return l1
+}
