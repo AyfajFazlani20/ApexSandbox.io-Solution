@@ -1,0 +1,7 @@
+public Set<Integer> setUnion(Set<Integer> set1, Set<Integer> set2) {
+    for(Integer a :set2)
+    {
+        set1.add(a) ;
+    }
+    return set1 ;
+}
