@@ -1,7 +1,6 @@
 public Set<Integer> setUnion(Set<Integer> set1, Set<Integer> set2) {
-    for(Integer a :set2)
-    {
-        set1.add(a) ;
-    }
-    return set1 ;
+    Set<Integer> resultSet = new Set<Integer>();
+    resultSet.addAll(set1);
+    resultSet.addAll(set2);
+    return resultSet;
 }
