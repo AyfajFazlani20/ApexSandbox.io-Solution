@@ -1,0 +1,16 @@
+public void setAccountRating(Account a) {
+    Account a=new Account() ;
+    for( a :account)
+    {
+        if(a.AnnualRevenue<=100000)
+        {
+            a.Rating == 'Cold';
+        }
+        else if(a.AnnualRevenue<=500000)
+        {
+            a.Rating == 'Warm';        }
+        }else{
+            a.Rating == 'Hot';      
+        }
+        insert a ;
+}
