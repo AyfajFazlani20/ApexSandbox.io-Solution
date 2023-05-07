@@ -1,6 +1,5 @@
 public List<String> getNamesInAscOrder(List<String> accountNames)
 
 {
-    sort(accountNames.begin() , accountNames.end()) ;
-    return  accountNames ;
+    accountNames.sort() ;
 }
